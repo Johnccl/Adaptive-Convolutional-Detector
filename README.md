@@ -1,9 +1,6 @@
 # Adaptive Convolutional Detector implemented with SSD
 Forked from [PyTorch-SSD](https://github.com/amdegroot/ssd.pytorch), which is a [PyTorch](http://pytorch.org/) implementation of Single Shot Multibox Detector.
 
-
-<img align="right" src= "https://github.com/amdegroot/ssd.pytorch/blob/master/doc/ssd.png" height = 400/>
-
 ### Table of Contents
 - <a href='#installation'>Installation</a>
 - <a href='#datasets'>Datasets</a>
@@ -31,15 +28,6 @@ Forked from [PyTorch-SSD](https://github.com/amdegroot/ssd.pytorch), which is a 
   sh make.sh
   ```
 - Then download the dataset by following the [instructions](#datasets) below.
-- We now support [Visdom](https://github.com/facebookresearch/visdom) for real-time loss visualization during training!
-  * To use Visdom in the browser:
-  ```Shell
-  # First install Python server and client
-  pip install visdom
-  # Start the server (probably in a screen or tmux)
-  python -m visdom.server
-  ```
-  * Then (during training) navigate to http://localhost:8097/ (see the Train section below for training details).
 - Note: For training, we currently support [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) and [COCO](http://mscoco.org/).
 
 ## Datasets
