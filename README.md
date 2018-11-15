@@ -1,6 +1,7 @@
 # Adaptive Convolutional Detector implemented with SSD
 Forked from [PyTorch-SSD](https://github.com/amdegroot/ssd.pytorch), which is a [PyTorch](http://pytorch.org/) implementation of Single Shot Multibox Detector.
-Source code will be published soon!
+
+Source code and models will be published soon!
 
 ### Table of Contents
 - <a href='#installation'>Installation</a>
