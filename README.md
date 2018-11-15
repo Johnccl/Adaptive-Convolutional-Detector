@@ -1,4 +1,4 @@
-# Adaptive Convolutional Detector implemented with SSD
+# Adaptive Convolutional Detector
 Forked from [PyTorch-SSD](https://github.com/amdegroot/ssd.pytorch), which is a [PyTorch](http://pytorch.org/) implementation of Single Shot Multibox Detector.
 
 Source code and models will be published soon!
@@ -92,13 +92,13 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 
 ## Demos
 
-### Use a pre-trained SSD network for detection
+### Use a pre-trained ACD network for detection
 
 #### Download a pre-trained network
-- We are trying to provide PyTorch `state_dicts` (dict of weight tensors) of the latest SSD model definitions trained on different datasets.  
+- We are trying to provide PyTorch `state_dicts` (dict of weight tensors) of the ACD models trained on different datasets.  
 - Currently, we provide the following PyTorch models:
-    * SSD300 trained on VOC0712 (newest PyTorch weights)
-      - https://s3.amazonaws.com/amdegroot-models/ssd300_mAP_77.43_v2.pth
+    * ACD300 trained on VOC0712 (newest PyTorch weights)
+      - model wil be opened soon!
     * SSD300 trained on VOC0712 (original Caffe weights)
       - https://s3.amazonaws.com/amdegroot-models/ssd_300_VOC0712.pth
 
