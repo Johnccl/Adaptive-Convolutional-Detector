@@ -35,7 +35,7 @@ Source code and models will be opened soon!
 ## Datasets
 Now we only support for MS COCO and PASCAL VOC.
 
-## Training SSD
+## Training ACD
 - First download the fc-reduced [VGG-16](https://arxiv.org/abs/1409.1556) PyTorch base network weights at:              https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 - By default, we assume you have downloaded the file in the `ssd.pytorch/weights` dir:
 
