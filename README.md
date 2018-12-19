@@ -37,7 +37,7 @@ Now we only support for MS COCO and PASCAL VOC.
 
 ## Training ACD
 - First download the fc-reduced [VGG-16](https://arxiv.org/abs/1409.1556) PyTorch base network weights at:              https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
-- By default, we assume you have downloaded the file in the `ssd.pytorch/weights` dir:
+- By default, we assume you have downloaded the file in the `/weights` dir:
 
 ```Shell
 mkdir weights
