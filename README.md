@@ -76,7 +76,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 |:-:|:-:|:-:|:-:|
 | SSD300 | VOC0712 |VOC07| 77.4% |
 | SSD512 | VOC0712 |VOC07| 79.5% |
-| ACD300 | VOC0712 |VOC07| 78.9% |
+| ACD300 | VOC0712 |VOC07| 79.3% |
 | ACD512 | VOC0712 |VOC07| 81.6% |
 
 #### COCO Test-dev
