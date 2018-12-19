@@ -53,6 +53,7 @@ python train.py
 
 - Note:
   * For training, an NVIDIA GPU is strongly recommended for speed.
+  * Before training, you need check the path to your dataset in '/data/coco.py' or '/data/voc0712.py'.
   * For instructions on Visdom usage/installation, see the <a href='#installation'>Installation</a> section.
   * You can pick-up training from a checkpoint by specifying the path as one of the training parameters (again, see `train.py` for options)
 
