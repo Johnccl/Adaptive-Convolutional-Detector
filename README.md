@@ -76,7 +76,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 ##### mAP@0.5
 
 | Method | Train | Test | BaseNet | fps | mAP |
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|:-:|
 | SSD300 | VOC0712 |VOC07|VGG| 46.0 | 77.4% |
 | SSD512 | VOC0712 |VOC07|VGG| 19.0 | 79.5% |
 | ACD300 | VOC0712 |VOC07|VGG| 43.7 | 79.3% |
@@ -86,7 +86,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 
 ##### AP@[0.5:0.95]
 | Method | Train | Test |BaseNet| AP |
-|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|
 | SSD300 | trainval35k |test-dev|VGG| 25.1% |
 | SSD512 | trainval35k |test-dev|VGG| 28.8% |
 | ACD300 | trainval35k |test-dev|VGG| 28.6% |
