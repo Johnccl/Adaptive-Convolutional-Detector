@@ -2,6 +2,7 @@
 Forked from [PyTorch-SSD](https://github.com/amdegroot/ssd.pytorch), which is a [PyTorch](http://pytorch.org/) implementation of Single Shot Multibox Detector.
 
 Source code and models will be opened soon!
+
 If you have any questions, please contact with me:johnchen@mail.ustc.edu.cn
 
 ### Table of Contents
