@@ -75,22 +75,22 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 
 ##### mAP@0.5
 
-| Method | Train | Test | mAP |
-|:-:|:-:|:-:|:-:|
-| SSD300 | VOC0712 |VOC07| 77.4% |
-| SSD512 | VOC0712 |VOC07| 79.5% |
-| ACD300 | VOC0712 |VOC07| 79.3% |
-| ACD512 | VOC0712 |VOC07| 81.6% |
+| Method | Train | Test | BaseNet | fps | mAP |
+|:-:|:-:|:-:|:-:|:-:|
+| SSD300 | VOC0712 |VOC07|VGG| 46.0 | 77.4% |
+| SSD512 | VOC0712 |VOC07|VGG| 19.0 | 79.5% |
+| ACD300 | VOC0712 |VOC07|VGG| 43.7 | 79.3% |
+| ACD512 | VOC0712 |VOC07|VGG| 20.6 | 81.6% |
 
 #### COCO Test-dev
 
 ##### AP@[0.5:0.95]
-| Method | Train | Test | AP |
+| Method | Train | Test |BaseNet| AP |
 |:-:|:-:|:-:|:-:|
-| SSD300 | trainval35k |test-dev| 25.1% |
-| SSD512 | trainval35k |test-dev| 28.8% |
-| ACD300 | trainval35k |test-dev| 28.6% |
-| ACD512 | trainval35k |test-dev| 32.3% |
+| SSD300 | trainval35k |test-dev|VGG| 25.1% |
+| SSD512 | trainval35k |test-dev|VGG| 28.8% |
+| ACD300 | trainval35k |test-dev|VGG| 28.6% |
+| ACD512 | trainval35k |test-dev|VGG| 32.3% |
 
 
 ## Demos
