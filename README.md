@@ -104,9 +104,9 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 #### Download a pre-trained network
 - We are trying to provide PyTorch `state_dicts` (dict of weight tensors) of the ACD models trained on different datasets.  
 - Currently, we provide the following PyTorch models:
-    * ACD300 trained on VOC0712 (newest PyTorch weights)
+    * ACD300 trained on VOC0712
       - model wil be opened soon!
-    * SSD300 trained on VOC0712 (original Caffe weights)
+    * SSD300 trained on VOC0712 
       - https://s3.amazonaws.com/amdegroot-models/ssd_300_VOC0712.pth
 
 ### Try the demo notebook
