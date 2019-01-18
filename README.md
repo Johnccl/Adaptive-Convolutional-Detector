@@ -47,7 +47,7 @@ cd weights
 wget https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
 ```
 
-- To train SSD using the train script simply specify the parameters listed in `train.py` as a flag or manually change them.
+- To train ACD using the train script simply specify the parameters listed in `train.py` as a flag or manually change them.
 
 ```Shell
 python train.py
@@ -91,6 +91,10 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 | SSD512 | trainval35k |test-dev|VGG| 28.8% |
 | ACD300 | trainval35k |test-dev|VGG| 28.6% |
 | ACD512 | trainval35k |test-dev|VGG| 32.3% |
+| SSD321 | trainval35k |test-dev|Resnet101| 28.0% |
+| SSD513 | trainval35k |test-dev|Resnet101| 31.2% |
+| ACD321 | trainval35k |test-dev|Resnet101| 30.8% |
+| ACD513 | trainval35k |test-dev|Resnet101| 34.5% |
 
 
 ## Demos
