@@ -94,7 +94,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 | SSD321 | trainval35k |test-dev|Resnet101| 28.0% |
 | SSD513 | trainval35k |test-dev|Resnet101| 31.2% |
 | ACD321 | trainval35k |test-dev|Resnet101| 30.8% |
-| ACD513 | trainval35k |test-dev|Resnet101| 34.5% |
+| ACD513 | trainval35k |test-dev|Resnet101| 34.7% |
 
 
 ## Demos
