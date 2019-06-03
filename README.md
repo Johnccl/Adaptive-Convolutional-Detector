@@ -35,6 +35,7 @@ Now we only support for MS COCO and PASCAL VOC.
 
 ## Training ACD
 - First download the fc-reduced [VGG-16](https://arxiv.org/abs/1409.1556) PyTorch base network weights at:              https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
+- You can also download the ImageNet pretrained model VGG-16 and ResNet-101 from my [Baiduyun](https://pan.baidu.com/s/18vBPPmGac4pzpBpeIBme_g), the extraction code is `y3f8`.
 - By default, we assume you have downloaded the file in the `/weights` dir:
 
 ```Shell
@@ -92,16 +93,15 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 | ACD321 | trainval35k |test-dev|Resnet101| 30.8% |
 | ACD513 | trainval35k |test-dev|Resnet101| 34.7% |
 
-
+We provide the above pretrained models in [Baiduyun](https://pan.baidu.com/s/1IoWv4OdOnoKx9F_meiAOjA), the extraction code is `anb7`.
 ## Demos
 
 ### Use a pre-trained ACD network for detection
 
 #### Download a pre-trained network
 - We are trying to provide PyTorch `state_dicts` (dict of weight tensors) of the ACD models trained on different datasets.  
-- Currently, we provide the following PyTorch models:
+- You can use the following PyTorch models:
     * ACD300 trained on VOC0712
-      - model wil be opened soon!
     * SSD300 trained on VOC0712 
       - https://s3.amazonaws.com/amdegroot-models/ssd_300_VOC0712.pth
 
