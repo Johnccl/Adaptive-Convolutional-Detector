@@ -93,7 +93,7 @@ You can specify the parameters listed in the `eval.py` file by flagging them or 
 | ACD321 | trainval35k |test-dev|Resnet101| 30.8% |
 | ACD513 | trainval35k |test-dev|Resnet101| 34.7% |
 
-We provide the above pretrained models in [Baiduyun](https://pan.baidu.com/s/1IoWv4OdOnoKx9F_meiAOjA), the extraction code is `anb7`.
+You can download the above pretrained models from my [Baiduyun](https://pan.baidu.com/s/1IoWv4OdOnoKx9F_meiAOjA), the extraction code is `anb7`.
 ## Demos
 
 ### Use a pre-trained ACD network for detection
